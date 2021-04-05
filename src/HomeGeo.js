@@ -32,7 +32,6 @@ React.useEffect(()=>{
    getFinalResult()
 })
  
-  // console.log(collectedResults, state)
   return <Container className="geo-container">
     <div className="wrapper">
       <Row className="main-row">
@@ -55,7 +54,7 @@ React.useEffect(()=>{
     <Select selectState={states.state3} number={3} parentCallback={callBack} />
     <Select selectState={states.state4} number={4} parentCallback={callBack} />
     <Select selectState={states.state5} number={5} parentCallback={callBack} />
-    <div style={{ textAlign: "center" }}>
+    <div style={{ textAlign: "center" }} aria-label="Final result">
       <h3>საბოლოო შედეგი: </h3>
       <h3>{state}</h3>
     </div>

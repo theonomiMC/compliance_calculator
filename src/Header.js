@@ -17,13 +17,13 @@ const Header = () => {
       For Educational Quality<br />Enhancement</span>
 
                 </Navbar.Brand>
-                {/* <Nav className="mr-auto"> */}
-                        <NavDropdown title="Language" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="/eng-version">English</NavDropdown.Item>
-                            <NavDropdown.Item href="/">Georgian</NavDropdown.Item>
+             
+                        <NavDropdown title="Language" id="collasible-nav-dropdown" role="switch-language">
+                            <NavDropdown.Item href="/eng-version" aria-label="english version">English</NavDropdown.Item>
+                            <NavDropdown.Item href="/" aria-label="georgian version">Georgian</NavDropdown.Item>
                         </NavDropdown>
                 
-                {/* </Nav> */}
+           
             </Navbar>
         </>
     )

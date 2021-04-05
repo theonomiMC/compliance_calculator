@@ -52,7 +52,7 @@ const HomeGeo = () => {
     <SelectEng selectState={states.state3} number={3} parentCallback={callBack}/>
     <SelectEng selectState={states.state4} number={4} parentCallback={callBack}/>
     <SelectEng selectState={states.state5} number={5} parentCallback={callBack}/>
-    <div style={{textAlign:"center"}}>
+    <div style={{textAlign:"center"}} aria-label="Final result">
       <h3>Conclusion: </h3>
       <h3>{state}</h3>
     </div>

@@ -79,7 +79,7 @@ const Select = ({ selectState, number, parentCallback }) => {
                     ))}
                 </Form>
                 <Col xs={3}>
-                    <div className="result-box" id={`${number}`}>
+                    <div className="result-box" id={`${number}`} aria-label="result">
                     {result}                 
                     </div>
 
