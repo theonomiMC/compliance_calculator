@@ -33,7 +33,9 @@ React.useEffect(()=>{
 })
  
   return <Container className="geo-container">
-    <h2 className='sub-heading'> უმაღლესი საგანმანათლებლო პროგრამების აკრედიტაციის სტანდარტებთან შესაბამისობის გამომთვლელი აპლიკაცია</h2>
+    <div className='wrapper'>
+      <h2 className='sub-heading'> უმაღლესი საგანმანათლებლო პროგრამების აკრედიტაციის სტანდარტებთან შესაბამისობის გამომთვლელი აპლიკაცია</h2>
+    </div>
     <div className="wrapper">
       <Row className="main-row">
         <Col>
