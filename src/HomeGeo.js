@@ -33,6 +33,7 @@ React.useEffect(()=>{
 })
  
   return <Container className="geo-container">
+    <h2 className='sub-heading'> უმაღლესი საგანმანათლებლო პროგრამების აკრედიტაციის სტანდარტებთან შესაბამისობის გამომთვლელი აპლიკაცია</h2>
     <div className="wrapper">
       <Row className="main-row">
         <Col>
@@ -54,7 +55,7 @@ React.useEffect(()=>{
     <Select selectState={states.state3} number={3} parentCallback={callBack} />
     <Select selectState={states.state4} number={4} parentCallback={callBack} />
     <Select selectState={states.state5} number={5} parentCallback={callBack} />
-    <div style={{ textAlign: "center" }} aria-label="Final result">
+    <div style={{ textAlign: "center", marginTop:'2rem' }} aria-label="Final result">
       <h2>საბოლოო შედეგი: </h2>
       <h2>{state}</h2>
     </div>
