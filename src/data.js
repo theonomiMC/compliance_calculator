@@ -50,7 +50,7 @@ const engData=[
 
 {
     "id": 0,
-    "title": "Non-Compliance",
+    "title": "No Compliance",
     "value": "no"
 },
 ]
@@ -90,18 +90,18 @@ const states = {
 
 const final=[
     {
-        "result-geo":"უარი",
-        "result-eng":"Refuse",
+        "result-geo":"გაუქმება/უარი აკრედიტაციაზე",
+        "result-eng":"Termination/Refusal",
         "id":"1"
     },
     {
         "result-geo":"პირობითი აკრედიტაცია",
-        "result-eng":"Temporary media Accreditation",
+        "result-eng":"Conditional Accreditation",
         "id":"2"
     },
     {
         "result-geo":"აკრედიტაცია ანგარიშით",
-        "result-eng":"Accreditation With Account",
+        "result-eng":"Accreditation with Report",
         "id":"3"
     },
     {
