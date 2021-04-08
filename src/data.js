@@ -90,8 +90,8 @@ const states = {
 
 const final=[
     {
-        "result-geo":"გაუქმება/უარი აკრედიტაციაზე",
-        "result-eng":"Termination/Refusal",
+        "result-geo":"გაუქმება / უარი აკრედიტაციაზე",
+        "result-eng":"Termination / Refusal",
         "id":"1"
     },
     {
