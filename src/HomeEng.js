@@ -31,6 +31,9 @@ const HomeGeo = () => {
     getFinalResult()
  })
   return <Container>
+    <h2 className='sub-heading'>Online tool to calculate the level
+   of compliance for
+   the higher education programs with the accreditation standards</h2>
     <div className="wrapper">
       <Row className="main-row">
         <Col>
@@ -52,7 +55,7 @@ const HomeGeo = () => {
     <SelectEng selectState={states.state3} number={3} parentCallback={callBack}/>
     <SelectEng selectState={states.state4} number={4} parentCallback={callBack}/>
     <SelectEng selectState={states.state5} number={5} parentCallback={callBack}/>
-    <div style={{textAlign:"center"}} aria-label="Final result">
+    <div style={{textAlign:"center", marginTop:'2rem'}} aria-label="Final result">
       <h3>Conclusion: </h3>
       <h3>{state}</h3>
     </div>
