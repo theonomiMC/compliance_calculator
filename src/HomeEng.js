@@ -31,9 +31,11 @@ const HomeGeo = () => {
     getFinalResult()
  })
   return <Container>
+    <div className='wrapper'>
     <h2 className='sub-heading'>Online tool to calculate the level
    of compliance for
    the higher education programs with the accreditation standards</h2>
+  </div>
     <div className="wrapper">
       <Row className="main-row">
         <Col>
