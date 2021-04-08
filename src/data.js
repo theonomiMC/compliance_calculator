@@ -112,10 +112,10 @@ const final=[
 ]
 const colorSet=[
     {
-        "full":"rgb(46 204 113 / 57%)"
+        "full":"rgb(0,204,0)"
     },
     {
-        "positive":"rgb(233 243 171)"
+        "positive":"rgb(0,204,102)"
     },
     {
         "partial":"rgb(247 202 24 / 73%)"
