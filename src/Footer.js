@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
     return <footer className='footer' id="lab_social_icon_footer">
-            <p>&copy; {new Date().getFullYear()} developed by <strong>Natalia Bakakuri</strong></p>
+            <p>&copy; {new Date().getFullYear()} Developed by <strong>Natalia Bakakuri</strong></p>
                 <div className="text-center center-block">
                     <a href="https://www.linkedin.com/in/nataliabakakuri/" target="_blank" rel="noreferrer" aria-label="linkedin link">
                     <i id="social-in" className="fa fa-linkedin-square fa-3x social"></i></a>
