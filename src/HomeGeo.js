@@ -55,8 +55,8 @@ React.useEffect(()=>{
     <Select selectState={states.state4} number={4} parentCallback={callBack} />
     <Select selectState={states.state5} number={5} parentCallback={callBack} />
     <div style={{ textAlign: "center" }} aria-label="Final result">
-      <h3>საბოლოო შედეგი: </h3>
-      <h3>{state}</h3>
+      <h2>საბოლოო შედეგი: </h2>
+      <h2>{state}</h2>
     </div>
   </Container>
 }
