@@ -19,7 +19,7 @@ const Header = () => {
                 </Navbar.Brand>
              
                         <NavDropdown title="ენა/Language" id="collasible-nav-dropdown" role="switch-language">
-                            <NavDropdown.Item href="/" aria-label="georgian version">Georgian</NavDropdown.Item>
+                            <NavDropdown.Item href="/" aria-label="georgian version">ქართული</NavDropdown.Item>
                             <NavDropdown.Item href="/eng-version" aria-label="english version">English</NavDropdown.Item>
                             
                         </NavDropdown>
