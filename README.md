@@ -4,3 +4,5 @@ Online tool to calculate the level of compliance for the higher education progra
 ## Available link
 
 https://ccft.netlify.app/
+<br />
+https://ccft.vercel.app/
